@@ -8,7 +8,7 @@ function countLetters(str) {
       output[letter] = 1
     }
     else {
-      output[letter] = output[letter] + 1
+      output[letter] += 1
     }
   }
   return output
